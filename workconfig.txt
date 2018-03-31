@@ -1,0 +1,26 @@
+# web 网页打开配置 (修改高级课程需要参照)
+	pc: http://www.10jrw_wap.com/Video/course_list.html 
+	手机web：http://192.168.10.108:8111/Video/course_list.html 
+	配置hosts
+	step：
+	
+	1.进入机器根目录 查找到 ect/hosts
+	2.编辑hosts
+	
+	$ 12.168.10.108   www.10jrw_wap.com
+	保存 退出
+
+
+# api 请求参数设置（postman）
+	1.token生成规则（wanglei+yyyy-MM-dd+c#M8y^8C$UJ%p&75@!）md5加密
+	2.参数为json格式
+	3.接口（api目录 xlsx表格 链表格式）
+
+# 日志查看设置 （terminal）
+	$ ssh root@192.168.10.108
+	$ password:123456
+	$ cd /home/htdocs/10jrw_pc/data/runtime/Logs
+	$ tail -f *.log
+
+
+
