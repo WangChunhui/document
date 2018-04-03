@@ -4,7 +4,7 @@
 	配置hosts
 	step：
 	
-	1.进入机器根目录 查找到 ect/hosts
+	1.进入机器根目录 查找到 etc/hosts
 	2.编辑hosts
 	
 	$ 12.168.10.108   www.10jrw_wap.com
