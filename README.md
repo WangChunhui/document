@@ -1,5 +1,12 @@
 #document
 
+
+## README.md 	: 编辑工作任务、内容， 记录工作进度
+## bug.txt	：记录项目bug
+## workconfig	：记录工作规则
+
+
+
 工作日志
 
 2018.03.27
