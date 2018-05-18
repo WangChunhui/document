@@ -188,3 +188,15 @@
 	1. 打卡记录界面 需要 封装user序列化问题（扩展 而不是 重构）
 	2. 处理网络请求成功之后的业务逻辑
 	3. 调试界面
+
+2018-05-18
+
+	1. 转移项目到 码云 gitee.com
+	2. 公司mac 需要生成ssh key 然后添加到项目中 (便于自己管理项目权限)
+	3. 步骤:
+		ssh-keygen -t rsa -C "xxxxx@xxxxx.com" 
+		cat ~/.ssh/id_rsa.pub
+		将公钥添加到项目中
+		ssh -T git@git.oschina.net
+	4. clone 下来项目 检查 无误 将github中删除
+	5. 删除本地 product 和 document 分支
