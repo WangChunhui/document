@@ -81,3 +81,6 @@ CenterViewController：
 
 	1. 首页tableView header 点击事件 bug（已解决）
 	2. 赢家社圈-->在线互动 聊天 文字 图片 表情 视频 发送失败
+
+
+
