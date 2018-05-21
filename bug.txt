@@ -90,3 +90,7 @@ CenterViewController：
 	3. 首页峰会论坛视频不需要统计<YJForumViewController.h>
 	4. YJVideoDetailViewController.h 界面参数 不清楚
 	5. 待完成 （KaePlayerViewController.h） (赢家社区)
+
+
+	6. 赢家社圈 视频播放 参数不足
+	7. 重新登录对 本地化 isClock 影响 (重新登录 如果是不同账号 会有影响 所以退出登录时 将isclock置空 (在登录界面初始化方法里添加重置方法 [WJClient setClock:NO];))
