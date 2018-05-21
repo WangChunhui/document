@@ -111,3 +111,10 @@
 	2. pagesize设置 tableView height / cell height + 1
 	3. user数据添加序列化model （AAA）
 	4. 重新创建一个user （避免修改原有数据）
+
+
+# 2018-5-21
+
+	1. 获取还需要观看的时间 如果 视频为直播 则传入参数 lid（讲师id）
+	2. 获取还需观看时间 如果 视频为回放 则需需要传入参数 id （视频id）
+

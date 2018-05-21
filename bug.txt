@@ -83,4 +83,10 @@ CenterViewController：
 	2. 赢家社圈-->在线互动 聊天 文字 图片 表情 视频 发送失败
 
 
+# 2018-05-16
 
+	1. 基础知识视频不需要统计 <VideoDetailViewController.h>
+	2. 学员分享视频不需要统计 <StudentsVideoViewController.h>
+	3. 首页峰会论坛视频不需要统计<YJForumViewController.h>
+	4. YJVideoDetailViewController.h 界面参数 不清楚
+	5. 待完成 （KaePlayerViewController.h） (赢家社区)
