@@ -90,8 +90,6 @@ CenterViewController：
 	3. 首页峰会论坛视频不需要统计<YJForumViewController.h>
 	4. YJVideoDetailViewController.h 界面参数 不清楚
 	5. 待完成 （KaePlayerViewController.h） (赢家社区)
-<<<<<<< HEAD
-<<<<<<< HEAD
 	6. 讲师热门课程不统计 
 
 # 2018-05-22
@@ -100,10 +98,6 @@ CenterViewController：
 	2. 直播视频跳转到 打卡记录界面 回来 视频停止播放
 	3. 获取打卡还需观看时间api 第一次请求报参数错误 <已解决 参数数据模型初始化问题>
 	4. 课程安排界面 进入直播 网络请求请求一次 成功回调两次 而且 socket 未处理 造成 重复赋值 界面崩溃 （暂时 手动设置 isFinished 判断请求成功一次不再重复请求）
-=======
-=======
->>>>>>> e19b850685647abd2ea88c9ab3f23ee2f731175c
-
 
 	6. 赢家社圈 视频播放 参数不足
 	7. 重新登录对 本地化 isClock 影响 (重新登录 如果是不同账号 会有影响 所以退出登录时 将isclock置空 (在登录界面初始化方法里添加重置方法 [WJClient setClock:NO];))
