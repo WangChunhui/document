@@ -91,6 +91,7 @@ CenterViewController：
 	4. YJVideoDetailViewController.h 界面参数 不清楚
 	5. 待完成 （KaePlayerViewController.h） (赢家社区)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	6. 讲师热门课程不统计 
 
 # 2018-05-22
@@ -100,6 +101,8 @@ CenterViewController：
 	3. 获取打卡还需观看时间api 第一次请求报参数错误 <已解决 参数数据模型初始化问题>
 	4. 课程安排界面 进入直播 网络请求请求一次 成功回调两次 而且 socket 未处理 造成 重复赋值 界面崩溃 （暂时 手动设置 isFinished 判断请求成功一次不再重复请求）
 =======
+=======
+>>>>>>> e19b850685647abd2ea88c9ab3f23ee2f731175c
 
 
 	6. 赢家社圈 视频播放 参数不足
