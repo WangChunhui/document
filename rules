@@ -1,0 +1,79 @@
+# url schemes 规则
+
+	yjw://push/		// 推送消息指定url
+	yjw://root/		// remotes 消息
+
+
+	/home/		// 首页
+	/course/	// 全部课程页
+	/schedule/	// 课程安排页
+	/price/		// 费用界面页
+	/account/	// 我的（账户中心页）
+
+	1./home/
+	
+		/home/train?index=0&action=""	// 现下培训
+		index ：segment 选项 默认为 0 	（取值范围 0、1）
+		action : 界面点击事件操作 	（取值范围 ""--无操作、"detail"--查看详情）
+		
+
+		/home/social?index=0		// 赢家社圈
+		index : 0--社圈首页
+			1--课程页
+			2--高手页
+
+		/home/share/			// 邀请好友赢福利
+		/home/yj_home/			// 赢家之家
+		/home/basic_course/		// 基础知识 
+		/home/basic_course/detail?id=""	// 基础知识指定视频id
+		/home/finance/			// 金融专区
+
+		/home/futures?index=""&aid=""	// 期货大赛
+		index : 初始化界面 （0--大赛排名、1--大赛事件、2--奖项设置、3--往期冠军）
+		aid : 比赛排名 用户id
+		
+		/home/live_room/more		// 直播间更多
+		/home/live_room/more?lid=""&room_id=""&is_live=""	// 直播间更多 指定讲师直播间
+		lid : 讲师id
+		room_id : 房间号
+		is_live : 是否在直播 (0、1)		
+
+		/home/live_room?lid=""&room_id=""&is_live=""
+		lid : 讲师id
+		room_id : 房间号
+		is_live : 是否在直播 (0、1)
+
+
+		/home/course?course_type=""&playback_url=""	// 讲师课程 指定播放课程
+		/home/course/more?course_type=""&lector_id=""	// 讲师课程 指定讲师 数据
+		/home/course/more/detail?course_type=""&playback_url="" 	// 讲师课程 更多指定播放课程
+		course_type : 课程类型(gk--公开课、A1--股票、A2--期货)
+		playback_url : 回放课程id
+		lector_id : 讲师id
+
+		/home/high_course?lid=""	// 高级体系课程 指定讲师课程 列表(预览)
+		/home/high_course?playback_url=""	// 高级体系课程 指定课程
+		/home/high_course/more?lid=""	// 高级体系课程 指定讲师课程 更多
+
+		/home/lector?lector_id=""	// 赢家导师 (导师介绍)
+		lector_id : 讲师id
+
+		/home/forum?room_id=""&lector_name=""	// 峰会论坛 
+		room_id : 房间号
+		lector_name : 讲师名称
+
+		/home/student_share/more?video_url=""	// 学员分享 更多 指定视频播放
+		/home/student_share?video_url=""	// 学员分享 指定视频播放
+
+
+
+	2. /course/ 
+	
+
+	3. /schedule/	
+		
+	
+	4. /price/	
+
+
+	5. /account/
