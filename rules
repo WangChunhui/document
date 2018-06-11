@@ -64,16 +64,56 @@
 
 		/home/student_share/more?video_url=""	// 学员分享 更多 指定视频播放
 		/home/student_share?video_url=""	// 学员分享 指定视频播放
-
+		video_url : 视频url
 
 
 	2. /course/ 
-	
+		
+		/course/lector?lector_id=""		// 讲师 指定讲师课程
+		/course/lector?lector_id=""&course_type=""	// 指定讲师 指定类型的课程
+		lector_id : 讲师id
+		course_type :	课程类型(gk--公开课、A1--股票、A2--期货)
 
 	3. /schedule/	
 		
+		/schedule/detail?is_live=""&room_id=""&playback_url="" // 课程安排 播放
+		is_live : 是否正在直播
+		room_id : 房间号
+		playback_url : 回放视频地址
 	
 	4. /price/	
+		
+		/price/living/		// VIP直播
+		/price/high/		// VIP高级体系
 
+	5. /account/     (登录状态下)
+		
+		/account/interactive?index=""	// 互动平台
+		index : 指定的选项卡 (0-->我的评论、 1-->我的回复、 2-->回复我的)
 
-	5. /account/
+		/account/manager?index=""	// 账户管理
+		index : 指定的选项卡(0-->基本信息、1-->交易经验)
+
+		/account/learn?index=""		// 我的学习
+		index : 指定选项卡(0-->我赞过的、1-->我收藏的)
+
+		/account/integral/	// 积分中心
+
+		/account/invite/	// 账户中心邀请方式
+		/account/invitelog/	// 账户中心邀请记录
+		/account/news/		// 账户中心消息中心
+		/account/attention/	// 账户中心我的关注
+		/account/livemanager?index=""	// 直播管理
+		index : 指定选项卡(0-->直播权限\ 1-->我的铁杆)
+
+		/account/coupons?index=""	// 抵用券
+		index : 指定选项卡(0-->线上抵用券、1-->线下抵用券)
+
+		/account/contact/	// 联系我们
+		/account/setting/	// 设置
+		/account/punchcard?index=""	// 打卡
+		index : 指定选项卡(0-->打卡须知、1-->打卡记录、2-->返还学费项目、3-->学费返还记录)
+
+		/account/login?mobile=""&password="" 	// 登录
+		mobile : 手机号
+		password : 密码
