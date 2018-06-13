@@ -128,3 +128,26 @@
 		redis-cli .. 进入
 		key * .. 查看所有key
 		hegetall + key
+
+# 2018-6-12
+
+	1. 修改icon
+
+		notification 	20*
+		spotlight 5,6 setting 5-11 29*
+		spotlight 7-11		40*
+		app 7-11	60*
+		
+		pad notification 7-11	20*
+		pad setting 5-11	29*
+		pad spotlight 7-11	40*
+		pad App 		76*
+		pad pro 9-11	83.5*
+		App Store 	1024*
+
+
+
+
+# 2018-6-13
+
+	1.
